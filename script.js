@@ -15,7 +15,7 @@ function removeArticle(bandName){
 
 
 bandNames.sort(function(a, b) {
-	console.log(a,b)
+	// console.log(a,b)
   return removeArticle(a).localeCompare(removeArticle(b));
 });
 
